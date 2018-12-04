@@ -5,11 +5,11 @@ import{
   StyleSheet
 } from 'react-native'
 export default class Cities extends React.Component{
-  render(){
-    return(
-      <View>
-      <Text>hello from cities</Text>
+  render() {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text>Cities!</Text>
       </View>
-    )
+    );
   }
 }
